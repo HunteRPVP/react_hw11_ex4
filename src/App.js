@@ -8,7 +8,7 @@ function App() {
 
   const handleFocus = () => {
     console.log(ref.current.focus());
-    ref.current.style.color = "red";
+    ref.current.style.color = 'red'
   };
 
   return (
